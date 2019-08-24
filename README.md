@@ -14,11 +14,9 @@ It is simple in that it:
 
 >### Pre-built APK
 
->Download the appropriate pre-built .apk file
+>Download the pre-built .apk file
 
   - https://github.com/fauxvillage/dnw/blob/master/dnw_latest.arm.apk
-
-  - https://github.com/fauxvillage/dnw/blob/master/dnw_latest.arm64.apk
 
 >### Build from source
 
