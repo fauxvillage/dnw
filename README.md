@@ -1,16 +1,55 @@
-# dnw
+# DNW -- Do's 'N' Who's 
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+DNW is a simplified telephone and message application for Android
+written in Dart using Flutter.
 
-This project is a starting point for a Flutter application.
+It is simple in that it:
 
-A few resources to get you started if this is your first Flutter project:
+- initiates calls but neither receives nor manages them
+- sends text messages but does not provide for viewing conversations
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>### Pre-built APK
+
+Download the pre-built .apk file from https://github.com/fauxvillage/dnw/blob/master/dnw.apk
+
+
+>### Build from source
+
+Clone the git repository.
+
+
+>#### Test
+
+In the application directory, run: 
+
+`$ flutter test`
+
+
+## Usage
+
+## Development
+
+### Milestones / Roadmap:
+
+- v.0.0.1
+  - passes test
+
+0.1
+  has meaningful README.md
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+- v.0.2.0
+
+
+  - completes calls
