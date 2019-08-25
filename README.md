@@ -12,23 +12,33 @@ It is simple in that it:
 
 ## Installation
 
->### Pre-built APK
+### Pre-built APK
 
->Download the pre-built .apk file
-
+Download the pre-built .apk file to the device. 
   - https://github.com/fauxvillage/dnw/blob/master/dnw_latest.arm.apk
 
->### Build from source
+Confirm file validity.
+
+
+  - https://github.com/fauxvillage/dnw/blob/master/dnw_latest.arm.sha1
+
+`$ sha1sum -c dnw_latest.arm.sha1 `
+
+
+Open the file using File Manager; give installation permissions where necessary.
+
+### Build from source
 
 Clone the git repository.
 
+`$ git clone https://github.com/fauxvillage/dnw.git
+`
 
->#### Test
-
-In the application directory, run: 
+`$ cd dnw`
 
 `$ flutter test`
 
+`$ flutter build --release --target-platform android-arm`
 
 ## Usage
 
